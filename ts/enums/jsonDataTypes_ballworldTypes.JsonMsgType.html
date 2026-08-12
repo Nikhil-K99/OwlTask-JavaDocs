@@ -1,0 +1,284 @@
+<!DOCTYPE html><html class="default" lang="en" data-base="../"><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>JsonMsgType | Next.js OwlTask Frontend Documentation</title><meta name="description" content="Documentation for Next.js OwlTask Frontend Documentation"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="../assets/style.css"/><link rel="stylesheet" href="../assets/highlight.css"/><script defer src="../assets/main.js"></script><script async src="../assets/icons.js" id="tsd-icons-script"></script><script async src="../assets/search.js" id="tsd-search-script"></script><script async src="../assets/navigation.js" id="tsd-nav-script"></script><script async src="../assets/hierarchy.js" id="tsd-hierarchy-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os";document.body.style.display="none";setTimeout(() => window.app?app.showPage():document.body.style.removeProperty("display"),500)</script><header class="tsd-page-toolbar">
+<div class="tsd-toolbar-contents container"><a href="../index.html" class="title">Next.js OwlTask Frontend Documentation</a>
+<div id="tsd-toolbar-links"></div><button id="tsd-search-trigger" class="tsd-widget" aria-label="Search"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-search"></use></svg></button><dialog id="tsd-search" aria-label="Search"><input role="combobox" id="tsd-search-input" aria-controls="tsd-search-results" aria-autocomplete="list" aria-expanded="true" autocapitalize="off" autocomplete="off" placeholder="Search the docs" maxLength="100"/>
+<ul role="listbox" id="tsd-search-results"></ul>
+<div id="tsd-search-status" aria-live="polite" aria-atomic="true">
+<div>Preparing search index...</div></div></dialog><a href="#" class="tsd-widget menu" id="tsd-toolbar-menu-trigger" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-menu"></use></svg></a></div></header>
+<div class="container container-main">
+<div class="col-content">
+<div class="tsd-page-title">
+<ul class="tsd-breadcrumb" aria-label="Breadcrumb">
+<li><a href="../modules/jsonDataTypes_ballworldTypes.html">jsonDataTypes/ballworldTypes</a></li>
+<li><a href="" aria-current="page">JsonMsgType</a></li></ul>
+<h1>Enumeration JsonMsgType<code class="tsd-tag">Const</code></h1></div>
+<section class="tsd-panel tsd-comment">
+<div class="tsd-comment tsd-typography"><p>Enumeration of the message type ID's associated with different JSON message data types.
+The static ID fields of the individual JSON message types are initialized to these enumeration <em>names</em>.
+Whenever a new JSON message type is added to the system, an associated entry must be added to the enumeration.
+IMPORTANT: The enumeration name MUST match the message type ID value due to a limitation of the typeScript-generator
+which only translates the name of the enumeration not its value.</p>
+<p>Values:</p>
+<ul>
+<li><code>addType</code> - JsonAddTypeData</li>
+<li><code>availableTypes</code> - JsonAvailableTypesData</li>
+<li><code>ballData</code> - JsonBallData</li>
+<li><code>canvasDim</code> - JsonCanvasDimData</li>
+<li><code>clearBalls</code> - Clear the balls in the backend system, no data associated with this message.</li>
+<li><code>combineTypes</code> - JsonCombineTypesData</li>
+<li><code>createType</code> - JsonData</li>
+<li><code>initSystem</code> - Initialize the backend system, no data associated with this message.</li>
+<li><code>nextType</code> - Change the currently instantiated types to their next type.   No data associated with this message.</li>
+<li><code>point2D</code> - JsonPoint2DData</li>
+<li><code>port</code> - JsonPortData</li>
+<li><code>startAnimation</code> - Start animation message, no data associated with this message.</li>
+<li><code>stopAnimation</code> - Stop animation message, no data associated with this message.</li>
+<li><code>status</code> - JsonStatusData</li>
+<li><code>text</code> - JsonTextData</li>
+<li><code>update</code> - JsonUpdateData</li>
+<li><code>updateInterval</code> - JsonUpdateIntervalData</li>
+<li><code>updateTask</code> - JsonUpdateTaskData</li>
+<li><code>taskUpdated</code> - JsonTaskData</li>
+<li><code>deleteTask</code> - JsonDeleteTaskData</li>
+<li><code>taskDeleted</code> - JsonDeleteTaskMsg</li>
+<li><code>taskData</code> - JsonTaskData</li>
+<li><code>updateTaskAssignees</code> - JsonUpdateTaskAssigneesData</li>
+<li><code>taskAssigneesUpdated</code> - JsonTaskOperationStatusMsg</li>
+<li><code>DEFAULT</code> - Message type associated with unknown or default message types.  Not associated with any known message data type.</li>
+</ul>
+</div></section><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L304">jsonDataTypes/ballworldTypes.ts:304</a></li></ul></aside>
+<section class="tsd-panel-group tsd-index-group">
+<section class="tsd-panel tsd-index-panel">
+<details class="tsd-index-content tsd-accordion" open><summary class="tsd-accordion-summary tsd-index-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>
+<h5 class="tsd-index-heading uppercase">Index</h5></summary>
+<div class="tsd-accordion-details">
+<section class="tsd-index-section">
+<h3 class="tsd-index-heading tsd-anchor-link" id="enumeration-members">Enumeration Members<a href="#enumeration-members" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-index-list"><a href="#addtype" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>add<wbr/>Type</span></a>
+<a href="#availabletypes" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>available<wbr/>Types</span></a>
+<a href="#balldata" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>ball<wbr/>Data</span></a>
+<a href="#canvasdim" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>canvas<wbr/>Dim</span></a>
+<a href="#clearballs" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>clear<wbr/>Balls</span></a>
+<a href="#combinetypes" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>combine<wbr/>Types</span></a>
+<a href="#createtype" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>create<wbr/>Type</span></a>
+<a href="#default" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>DEFAULT</span></a>
+<a href="#deletetask" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>delete<wbr/>Task</span></a>
+<a href="#initsystem" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>init<wbr/>System</span></a>
+<a href="#nexttype" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>next<wbr/>Type</span></a>
+<a href="#point2d" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>point2<wbr/>D</span></a>
+<a href="#port" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>port</span></a>
+<a href="#startanimation" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>start<wbr/>Animation</span></a>
+<a href="#status" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>status</span></a>
+<a href="#stopanimation" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>stop<wbr/>Animation</span></a>
+<a href="#taskassigneesupdated" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>task<wbr/>Assignees<wbr/>Updated</span></a>
+<a href="#taskdata" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>task<wbr/>Data</span></a>
+<a href="#taskdeleted" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>task<wbr/>Deleted</span></a>
+<a href="#taskupdated" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>task<wbr/>Updated</span></a>
+<a href="#text" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>text</span></a>
+<a href="#update" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>update</span></a>
+<a href="#updateinterval" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>update<wbr/>Interval</span></a>
+<a href="#updatetask" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>update<wbr/>Task</span></a>
+<a href="#updatetaskassignees" class="tsd-index-link"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>update<wbr/>Task<wbr/>Assignees</span></a>
+</div></section></div></details></section></section>
+<details class="tsd-panel-group tsd-member-group tsd-accordion" open><summary class="tsd-accordion-summary" data-key="section-Enumeration Members"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>
+<h2 class="tsd-anchor-link" id="enumeration-members-1">Enumeration Members<a href="#enumeration-members-1" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h2></summary>
+<section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="addtype"><span>add<wbr/>Type</span><a href="#addtype" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">addType</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;addType&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonAddTypeData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L308">jsonDataTypes/ballworldTypes.ts:308</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="availabletypes"><span>available<wbr/>Types</span><a href="#availabletypes" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">availableTypes</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;availableTypes&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonAvailableTypesData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L312">jsonDataTypes/ballworldTypes.ts:312</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="balldata"><span>ball<wbr/>Data</span><a href="#balldata" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">ballData</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;ballData&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonBallData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L316">jsonDataTypes/ballworldTypes.ts:316</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="canvasdim"><span>canvas<wbr/>Dim</span><a href="#canvasdim" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">canvasDim</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;canvasDim&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonCanvasDimData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L320">jsonDataTypes/ballworldTypes.ts:320</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="clearballs"><span>clear<wbr/>Balls</span><a href="#clearballs" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">clearBalls</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;clearBalls&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>Clear the balls in the backend system, no data associated with this message.</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L324">jsonDataTypes/ballworldTypes.ts:324</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="combinetypes"><span>combine<wbr/>Types</span><a href="#combinetypes" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">combineTypes</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;combineTypes&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonCombineTypesData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L328">jsonDataTypes/ballworldTypes.ts:328</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="createtype"><span>create<wbr/>Type</span><a href="#createtype" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">createType</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;createType&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L332">jsonDataTypes/ballworldTypes.ts:332</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="default"><span>DEFAULT</span><a href="#default" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">DEFAULT</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;DEFAULT&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>Message type associated with unknown or default message types.  Not associated with any known message data type.</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L404">jsonDataTypes/ballworldTypes.ts:404</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="deletetask"><span>delete<wbr/>Task</span><a href="#deletetask" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">deleteTask</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;deleteTask&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonDeleteTaskData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L384">jsonDataTypes/ballworldTypes.ts:384</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="initsystem"><span>init<wbr/>System</span><a href="#initsystem" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">initSystem</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;initSystem&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>Initialize the backend system, no data associated with this message.</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L336">jsonDataTypes/ballworldTypes.ts:336</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="nexttype"><span>next<wbr/>Type</span><a href="#nexttype" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">nextType</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;nextType&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>Change the currently instantiated types to their next type.   No data associated with this message.</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L340">jsonDataTypes/ballworldTypes.ts:340</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="point2d"><span>point2<wbr/>D</span><a href="#point2d" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">point2D</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;point2D&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonPoint2DData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L344">jsonDataTypes/ballworldTypes.ts:344</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="port"><span>port</span><a href="#port" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">port</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;port&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonPortData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L348">jsonDataTypes/ballworldTypes.ts:348</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="startanimation"><span>start<wbr/>Animation</span><a href="#startanimation" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">startAnimation</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;startAnimation&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>Start animation message, no data associated with this message.</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L352">jsonDataTypes/ballworldTypes.ts:352</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="status"><span>status</span><a href="#status" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">status</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;status&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonStatusData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L360">jsonDataTypes/ballworldTypes.ts:360</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="stopanimation"><span>stop<wbr/>Animation</span><a href="#stopanimation" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">stopAnimation</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;stopAnimation&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>Stop animation message, no data associated with this message.</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L356">jsonDataTypes/ballworldTypes.ts:356</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="taskassigneesupdated"><span>task<wbr/>Assignees<wbr/>Updated</span><a href="#taskassigneesupdated" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">taskAssigneesUpdated</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;taskAssigneesUpdated&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonTaskOperationStatusMsg</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L400">jsonDataTypes/ballworldTypes.ts:400</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="taskdata"><span>task<wbr/>Data</span><a href="#taskdata" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">taskData</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;taskData&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonTaskData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L392">jsonDataTypes/ballworldTypes.ts:392</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="taskdeleted"><span>task<wbr/>Deleted</span><a href="#taskdeleted" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">taskDeleted</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;taskDeleted&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonDeleteTaskMsg</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L388">jsonDataTypes/ballworldTypes.ts:388</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="taskupdated"><span>task<wbr/>Updated</span><a href="#taskupdated" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">taskUpdated</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;taskUpdated&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonTaskData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L380">jsonDataTypes/ballworldTypes.ts:380</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="text"><span>text</span><a href="#text" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">text</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;text&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonTextData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L364">jsonDataTypes/ballworldTypes.ts:364</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="update"><span>update</span><a href="#update" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">update</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;update&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonUpdateData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L368">jsonDataTypes/ballworldTypes.ts:368</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="updateinterval"><span>update<wbr/>Interval</span><a href="#updateinterval" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">updateInterval</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;updateInterval&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonUpdateIntervalData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L372">jsonDataTypes/ballworldTypes.ts:372</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="updatetask"><span>update<wbr/>Task</span><a href="#updatetask" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">updateTask</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;updateTask&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonUpdateTaskData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L376">jsonDataTypes/ballworldTypes.ts:376</a></li></ul></aside></section>
+<section class="tsd-panel tsd-member">
+<h3 class="tsd-anchor-link" id="updatetaskassignees"><span>update<wbr/>Task<wbr/>Assignees</span><a href="#updatetaskassignees" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="../assets/icons.svg#icon-anchor"></use></svg></a></h3>
+<div class="tsd-signature"><span class="tsd-kind-enum-member">updateTaskAssignees</span><span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;updateTaskAssignees&quot;</span></div>
+<div class="tsd-comment tsd-typography"><p>JsonUpdateTaskAssigneesData</p>
+</div><aside class="tsd-sources">
+<ul>
+<li>Defined in <a href="https://github.com/RiceCOMP610/su25-final-project-comp610-su26-final-project-2/blob/d656a44ea2af3fc8aff7bde44346a5dfc87fe35e/src/app/jsonDataTypes/ballworldTypes.ts#L396">jsonDataTypes/ballworldTypes.ts:396</a></li></ul></aside></section></section></details></div>
+<div class="col-sidebar">
+<div class="page-menu">
+<div class="tsd-navigation settings">
+<details class="tsd-accordion"><summary class="tsd-accordion-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>
+<h3>Settings</h3></summary>
+<div class="tsd-accordion-details">
+<div class="tsd-filter-visibility"><span class="settings-label">Member Visibility</span>
+<ul id="tsd-filter-options">
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-protected" name="protected"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Protected</span></label></li>
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Inherited</span></label></li>
+<li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-external" name="external"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>External</span></label></li></ul></div>
+<div class="tsd-theme-toggle"><label class="settings-label" for="tsd-theme">Theme</label><select id="tsd-theme"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></div></details></div>
+<details open class="tsd-accordion tsd-page-navigation"><summary class="tsd-accordion-summary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>
+<h3>On This Page</h3></summary>
+<div class="tsd-accordion-details">
+<details open class="tsd-accordion tsd-page-navigation-section"><summary class="tsd-accordion-summary" data-key="section-Enumeration Members"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><use href="../assets/icons.svg#icon-chevronDown"></use></svg>Enumeration Members</summary>
+<div><a href="#addtype"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>add<wbr/>Type</span></a><a href="#availabletypes"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>available<wbr/>Types</span></a><a href="#balldata"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>ball<wbr/>Data</span></a><a href="#canvasdim"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>canvas<wbr/>Dim</span></a><a href="#clearballs"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>clear<wbr/>Balls</span></a><a href="#combinetypes"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>combine<wbr/>Types</span></a><a href="#createtype"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>create<wbr/>Type</span></a><a href="#default"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>DEFAULT</span></a><a href="#deletetask"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>delete<wbr/>Task</span></a><a href="#initsystem"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>init<wbr/>System</span></a><a href="#nexttype"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>next<wbr/>Type</span></a><a href="#point2d"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>point2<wbr/>D</span></a><a href="#port"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>port</span></a><a href="#startanimation"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>start<wbr/>Animation</span></a><a href="#status"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>status</span></a><a href="#stopanimation"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>stop<wbr/>Animation</span></a><a href="#taskassigneesupdated"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>task<wbr/>Assignees<wbr/>Updated</span></a><a href="#taskdata"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>task<wbr/>Data</span></a><a href="#taskdeleted"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>task<wbr/>Deleted</span></a><a href="#taskupdated"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>task<wbr/>Updated</span></a><a href="#text"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>text</span></a><a href="#update"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>update</span></a><a href="#updateinterval"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>update<wbr/>Interval</span></a><a href="#updatetask"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>update<wbr/>Task</span></a><a href="#updatetaskassignees"><svg class="tsd-kind-icon" viewBox="0 0 24 24" aria-label="Enumeration Member"><use href="../assets/icons.svg#icon-16"></use></svg><span>update<wbr/>Task<wbr/>Assignees</span></a></div></details></div></details></div>
+<div class="site-menu">
+<nav class="tsd-navigation"><a href="../modules.html">Next.js OwlTask Frontend Documentation</a>
+<ul class="tsd-small-nested-navigation" id="tsd-nav-container">
+<li>Loading...</li></ul></nav></div></div></div><footer>
+<p class="tsd-generator">Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p></footer>
+<div class="overlay"></div></body></html>
